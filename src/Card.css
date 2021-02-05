@@ -1,0 +1,40 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+img{
+    width: 60%;
+    height: 45%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 35vh;
+    width: 200px;
+    /* padding-top: 2%; */
+}
+.allcards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen  and (max-width:800px){
+    .allcards
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container
+    {
+        height: 30vh;
+        padding-bottom: 2%;
+    }
+}
